@@ -1,6 +1,6 @@
 // import * as R from 'ramda';
 
-import {} from "valtio";
+import { subscribe } from "valtio";
 
 import { useAtom, WritableAtom } from "jotai";
 import { Observable, Subject, of } from "rxjs";
